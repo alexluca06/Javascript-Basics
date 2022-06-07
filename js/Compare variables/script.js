@@ -55,3 +55,20 @@ console.log("Compare two numbers: a = 4 and b = 4!");
 compare(a, b);
 console.log("Compare a number: a = 4 and a string: c = \"4\"");
 compare(a, c);
+
+// This tell you if something is false or true in JS
+console.log(Boolean("haha"));
+
+/*
+ *  What is true and what is false in JS! 
+ */
+if(false || null || undefined || "" || 0 || NaN) {
+    console.log("This lone won't ever execute!");
+}
+else {
+    console.log("All False!");
+}
+
+if("false" && "hello" && true && 1 && -1) {
+    console.log("All true!");
+}
