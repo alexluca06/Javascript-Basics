@@ -17,3 +17,9 @@ var doubleAll = makeMultiplier(2);
  * this is how it knows about the value of multiplier!
  */
 console.log(doubleAll(10));
+
+// Immediately invoked Function Expression
+
+(function (name) {
+    console.log("Hello " + name);
+}) ("Alex");
